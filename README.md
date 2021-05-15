@@ -1,30 +1,65 @@
 # react-dummy-design-library
 
-> Dummy react-library to experiment with Rollup
+> This library was developed to experiment with the following technologies:
+
+- create-react-library
+- microbundler
+- Typescript and Javascript components in the same repository
 
 [![NPM](https://img.shields.io/npm/v/react-dummy-design-library.svg)](https://www.npmjs.com/package/react-dummy-design-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-dummy-design-library
+yarn add react-dummy-design-library
 ```
 
-## Usage
+# Tests
+
+You can write tests either in JS or TS, either way will work
+
+
+
+
+## Running tests
+
+```bash
+yarn test
+```
+
+# Usage
 
 ```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-dummy-design-library'
+import { Button, Alert } from 'react-dummy-design-library'
 import 'react-dummy-design-library/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <div>
+    <Button text="Button in Typscript" />
+    <Alert message="Alert message in JS" />
+  </div>
 }
+
+export default App
+
 ```
 
-## License
+# Example React App
+
+This repository contains an [example](example/src/App.tsx) React App, that is useful for the developers to try out their components, and leave examples for others on how to use it.
+
+## Running the example app to test your components
+On the root project
+
+```bash
+yarn build
+```
+On the exampel project
+```bash
+yarn && yarn start
+```
+
+
+# License
 
 MIT © [sonikro](https://github.com/sonikro)

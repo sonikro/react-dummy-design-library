@@ -1,10 +1,13 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-dummy-design-library'
+import { Button, Alert } from 'react-dummy-design-library'
 import 'react-dummy-design-library/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <div>
+    <Button text="Button in Typscript" />
+    <Alert message="Alert message in JS" />
+  </div>
 }
 
 export default App
