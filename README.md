@@ -2,11 +2,20 @@
 
 > This library was developed to experiment with the following technologies:
 
-- create-react-library
-- microbundler
+- [create-react-library](https://github.com/transitive-bullshit/create-react-library#readme)
+- [microbundler](https://github.com/developit/microbundle)
 - Typescript and Javascript components in the same repository
 
 [![NPM](https://img.shields.io/npm/v/react-dummy-design-library.svg)](https://www.npmjs.com/package/react-dummy-design-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+- [react-dummy-design-library](#react-dummy-design-library)
+  * [Install](#install)
+- [Tests](#tests)
+  * [Running tests](#running-tests)
+- [Usage](#usage)
+- [Example React App](#example-react-app)
+  * [Running the example app to test your components](#running-the-example-app-to-test-your-components)
+- [License](#license)
 
 ## Install
 
